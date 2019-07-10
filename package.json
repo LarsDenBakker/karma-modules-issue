@@ -1,0 +1,26 @@
+{
+  "name": "karma-modules-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:LarsDenBakker/karma-modules-issue.git",
+  "author": "Lars den Bakker <larsdenbakker@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "karma start",
+    "test:include-src": "karma start karma-include-src.conf.js",
+    "test:include-all": "karma start karma-include-all.conf.js"
+  },
+  "dependencies": {
+    "deepmerge": "^4.0.0",
+    "karma": "^4.1.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage-istanbul-reporter": "^2.0.5",
+    "karma-mocha": "^1.3.0",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-source-map-support": "^1.4.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-static": "^1.0.1",
+    "lodash-es": "^4.17.13",
+    "mocha": "^6.1.4"
+  }
+}
